@@ -1,7 +1,6 @@
 const form = document.getElementById("form");
 const campos = document.querySelectorAll(".required");
 const spans = document.querySelectorAll(".span-required");
-// REGEX QUE FOI PEGO DA INTERNET PARA PODER VALIDAR O EMAIL, PRA VER SE TEM A ESTRUTURA DE UM EMAIL
 const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
 form.addEventListener("submit", (event) => {
